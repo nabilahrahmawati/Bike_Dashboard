@@ -25,5 +25,5 @@
 #### Run Streamlit app
 ```bash
 cd dashboard
-streamlit run dashboard.py
+streamlit run bike_rent.py
 ```
