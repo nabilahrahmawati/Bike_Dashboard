@@ -27,3 +27,4 @@
 cd dashboard
 streamlit run bike_rent.py
 ```
+Streamlit dapat dilihat di [link](https://bikedashboard-j6dckywxgyzy9xacbyx8aa.streamlit.app/) berikut
