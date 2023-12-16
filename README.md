@@ -2,7 +2,7 @@
 
 ## -- Analisis menggunakan Colab Notebook -- 
 
-### Detail hasil visualisasi ada di [notebook](https://github.com/nabilahrahmawati/Bike-Rent-Dashboard/blob/main/Projek_Bikesharing.ipynb)
+### Detail hasil visualisasi ada di [notebook](https://github.com/nabilahrahmawati/Bike_Dashboard/blob/main/Projek_Bikesharing.ipynb))
 
 ### Pertanyaan
 1. Bagaimana tren jumlah pengguna sepeda dalam beberapa tahun terakhir?
@@ -21,6 +21,13 @@
 4. Jumlah penyewa lebih banyak di hari kerja dibanding akhir pekan/hari libur. Berdasakan hari biasa, hari Kamis menjadi posisi pertama sebagai hari dengan penyewa sepeda terbanyak, sedangkan jumlah penyewa sepeda paling sedikit berada di hari Minggu.
 
 5. temp dan atemp memiliki korelasi positif dengan count, sehingga jika temperatur (temp dan atemp) meningkat, maka pengguna sepeda juga cenderung meningkat. Maka, pada musim dingin dengan temperatur rendah dan dingin memiliki jumlah sewa sepeda yang lebih sedikit. Sedangkan pada musim panas dengan temperatur tinggi dan panas memiliki jumlah sewa sepeda yang banyak juga.
+
+#### Setup Environment
+```bash
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install pandas matplotlib seaborn streamlit
+```
 
 #### Run Streamlit app
 ```bash
